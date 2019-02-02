@@ -1,0 +1,41 @@
+$date
+	Sat Nov 10 16:39:20 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_inst $end
+$var wire 32 ! inst [31:0] $end
+$var reg 5 " PC [4:0] $end
+$scope module mem $end
+$var wire 5 # PC [4:0] $end
+$var wire 32 $ inst [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000010011000000000100101 $
+b11 #
+b11 "
+b1000010011000000000100101 !
+$end
+#30000
+b1000010011000000000100100 !
+b1000010011000000000100100 $
+b10 "
+b10 #
+#60000
+b100000000010000000000000000001 !
+b100000000010000000000000000001 $
+b10101 "
+b10101 #
+#90000
+b1000000000000000000000011111 !
+b1000000000000000000000011111 $
+b11101 "
+b11101 #
+#150000

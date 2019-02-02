@@ -1,0 +1,44 @@
+$date
+	Sat Nov 10 21:21:29 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_add $end
+$var wire 32 ! s [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 32 # b [31:0] $end
+$scope module test_mux $end
+$var wire 32 $ a [31:0] $end
+$var wire 32 % b [31:0] $end
+$var wire 32 & s [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111111111111111111111111110 &
+b11111111111111111111111111111111 %
+b11111111111111111111111111111111 $
+b11111111111111111111111111111111 #
+b11111111111111111111111111111111 "
+b11111111111111111111111111111110 !
+$end
+#30000
+b0 #
+b0 %
+b1 !
+b1 &
+b1 "
+b1 $
+#60000
+b1 #
+b1 %
+b10000000000000000 !
+b10000000000000000 &
+b1111111111111111 "
+b1111111111111111 $
+#100000

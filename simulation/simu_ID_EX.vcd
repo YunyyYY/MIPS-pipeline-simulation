@@ -1,0 +1,159 @@
+$date
+	Fri Nov  9 22:34:30 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_ID_EX $end
+$var wire 4 ! WB_MEM [3:0] $end
+$var wire 32 " SignOut [31:0] $end
+$var wire 5 # RtOut [4:0] $end
+$var wire 5 $ RsOut [4:0] $end
+$var wire 1 % RegDst $end
+$var wire 32 & ReadOut2 [31:0] $end
+$var wire 32 ' ReadOut1 [31:0] $end
+$var wire 5 ( RdOut [4:0] $end
+$var wire 1 ) ALUSrc $end
+$var wire 2 * ALUOp [1:0] $end
+$var wire 6 + ALUControl [5:0] $end
+$var reg 8 , IdEx [7:0] $end
+$var reg 5 - RdIn [4:0] $end
+$var reg 32 . ReadIn1 [31:0] $end
+$var reg 32 / ReadIn2 [31:0] $end
+$var reg 5 0 RsIn [4:0] $end
+$var reg 5 1 RtIn [4:0] $end
+$var reg 32 2 SignIn [31:0] $end
+$var reg 1 3 clock $end
+$scope module idex $end
+$var wire 8 4 IdEx [7:0] $end
+$var wire 5 5 RdIn [4:0] $end
+$var wire 32 6 ReadIn1 [31:0] $end
+$var wire 32 7 ReadIn2 [31:0] $end
+$var wire 5 8 RsIn [4:0] $end
+$var wire 5 9 RtIn [4:0] $end
+$var wire 32 : SignIn [31:0] $end
+$var wire 1 3 clock $end
+$var reg 6 ; ALUControl [5:0] $end
+$var reg 2 < ALUOp [1:0] $end
+$var reg 1 ) ALUSrc $end
+$var reg 5 = RdOut [4:0] $end
+$var reg 32 > ReadOut1 [31:0] $end
+$var reg 32 ? ReadOut2 [31:0] $end
+$var reg 1 % RegDst $end
+$var reg 5 @ RsOut [4:0] $end
+$var reg 5 A RtOut [4:0] $end
+$var reg 32 B SignOut [31:0] $end
+$var reg 4 C WB_MEM [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+b1001000000100000 :
+b10000 9
+b10001 8
+b1 7
+b11 6
+b10010 5
+b10000101 4
+13
+b1001000000100000 2
+b10000 1
+b10001 0
+b1 /
+b11 .
+b10010 -
+b10000101 ,
+bx +
+bx *
+x)
+bx (
+bx '
+bx &
+x%
+bx $
+bx #
+bx "
+bx !
+$end
+#15000
+03
+#30000
+b10 (
+b10 =
+b0 #
+b0 A
+b1 $
+b1 @
+b100010 +
+b100010 ;
+b1001000000100010 "
+b1001000000100010 B
+b1 &
+b1 ?
+b1 '
+b1 >
+1)
+b10 *
+b10 <
+0%
+b1000 !
+b1000 C
+13
+b10 -
+b10 5
+b0 1
+b0 9
+b1 0
+b1 8
+b1001000000100010 2
+b1001000000100010 :
+b1 .
+b1 6
+#45000
+03
+#60000
+b1010 (
+b1010 =
+b1000 #
+b1000 A
+b10001 $
+b10001 @
+b100100 +
+b100100 ;
+b1001000000100100 "
+b1001000000100100 B
+b1001 &
+b1001 ?
+b1011 '
+b1011 >
+13
+b1010 -
+b1010 5
+b1000 1
+b1000 9
+b10001 0
+b10001 8
+b1001000000100100 2
+b1001000000100100 :
+b1001 /
+b1001 7
+b1011 .
+b1011 6
+#75000
+03
+#90000
+13
+#100000

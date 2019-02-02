@@ -1,0 +1,68 @@
+$date
+	Sat Nov 10 14:04:07 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_ctrl $end
+$var wire 1 ! jump $end
+$var wire 8 " idexControl [7:0] $end
+$var wire 1 # branch $end
+$var reg 6 $ opcdoe [5:0] $end
+$scope module ctrl $end
+$var wire 1 # branch $end
+$var wire 1 ! jump $end
+$var wire 6 % opcode [5:0] $end
+$var wire 8 & idexControl [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000101 &
+b0 %
+b0 $
+0#
+b10000101 "
+0!
+$end
+#10000
+b11101000 "
+b11101000 &
+b100011 $
+b100011 %
+#20000
+b11000 "
+b11000 &
+b101011 $
+b101011 %
+#30000
+b10001110 "
+b10001110 &
+b1000 $
+b1000 %
+#40000
+b10001010 "
+b10001010 &
+b1100 $
+b1100 %
+#50000
+1#
+b10000000 "
+b10000000 &
+b100 $
+b100 %
+#60000
+b101 $
+b101 %
+#70000
+b10000100 "
+b10000100 &
+1!
+0#
+b10 $
+b10 %
+#100000

@@ -1,0 +1,99 @@
+$date
+	Sat Nov 10 10:35:41 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_mem $end
+$var wire 2 ! wb [1:0] $end
+$var wire 32 " wDataOut [31:0] $end
+$var wire 5 # RdOut [4:0] $end
+$var wire 1 $ MemWrite $end
+$var wire 1 % MemRead $end
+$var wire 32 & Address [31:0] $end
+$var reg 32 ' ALUResult [31:0] $end
+$var reg 5 ( RdIn [4:0] $end
+$var reg 1 ) clock $end
+$var reg 4 * memwb [3:0] $end
+$var reg 32 + wDataIn [31:0] $end
+$scope module mwb $end
+$var wire 32 , ALUResult [31:0] $end
+$var wire 5 - RdIn [4:0] $end
+$var wire 1 ) clock $end
+$var wire 4 . memwb [3:0] $end
+$var wire 32 / wDataIn [31:0] $end
+$var reg 32 0 Address [31:0] $end
+$var reg 1 % MemRead $end
+$var reg 1 $ MemWrite $end
+$var reg 5 1 RdOut [4:0] $end
+$var reg 32 2 wDataOut [31:0] $end
+$var reg 2 3 wb [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+b11 .
+b10010 -
+b1 ,
+bx +
+b11 *
+1)
+b10010 (
+b1 '
+bx &
+x%
+x$
+bx #
+bx "
+bx !
+$end
+#15000
+0)
+#30000
+b10 #
+b10 1
+b1001 "
+b1001 2
+b1 &
+b1 0
+1$
+0%
+b0 !
+b0 3
+1)
+b10 (
+b10 -
+b1001 +
+b1001 /
+b1 *
+b1 .
+#45000
+0)
+#60000
+b1010 #
+b1010 1
+b1011 "
+b1011 2
+b1 !
+b1 3
+1)
+b1010 (
+b1010 -
+b1011 +
+b1011 /
+b101 *
+b101 .
+#75000
+0)
+#90000
+1)
+#100000

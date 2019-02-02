@@ -1,0 +1,73 @@
+$date
+	Sun Nov 11 17:16:07 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_bslct $end
+$var wire 2 ! sB [1:0] $end
+$var wire 2 " sA [1:0] $end
+$var reg 1 # exmemMemRead $end
+$var reg 5 $ exmemRd [4:0] $end
+$var reg 1 % exmemRegWrite $end
+$var reg 1 & idexMemRead $end
+$var reg 5 ' idexRd [4:0] $end
+$var reg 1 ( idexRegWrite $end
+$var reg 1 ) ifBch $end
+$var reg 5 * ifidRs [4:0] $end
+$var reg 5 + ifidRt [4:0] $end
+$scope module testslct $end
+$var wire 1 # exmemMemRead $end
+$var wire 5 , exmemRd [4:0] $end
+$var wire 1 % exmemRegWrite $end
+$var wire 1 & idexMemRead $end
+$var wire 5 - idexRd [4:0] $end
+$var wire 1 ( idexRegWrite $end
+$var wire 1 ) ifBch $end
+$var wire 5 . ifidRs [4:0] $end
+$var wire 5 / ifidRt [4:0] $end
+$var reg 2 0 sA [1:0] $end
+$var reg 2 1 sB [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 1
+b0 0
+bx /
+b10000 .
+b10000 -
+bx ,
+bx +
+b10000 *
+1)
+1(
+b10000 '
+1&
+x%
+bx $
+x#
+b0 "
+b0 !
+$end
+#20000
+b10000 $
+b10000 ,
+b0 '
+b0 -
+1%
+0(
+#40000
+b0 $
+b0 ,
+b10000 '
+b10000 -
+0%
+0)
+#60000
+1)
+#100000

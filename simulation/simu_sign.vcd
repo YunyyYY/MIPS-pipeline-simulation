@@ -1,0 +1,41 @@
+$date
+	Sat Nov 10 15:16:53 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_sign $end
+$var wire 32 ! Immout [31:0] $end
+$var reg 16 " Immin [15:0] $end
+$scope module sign $end
+$var wire 16 # Immin [15:0] $end
+$var wire 32 $ Immout [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111111111111111111100000000 $
+b1111111100000000 #
+b1111111100000000 "
+b11111111111111111111111100000000 !
+$end
+#20000
+b11111111111111111111111110100011 !
+b11111111111111111111111110100011 $
+b1111111110100011 "
+b1111111110100011 #
+#40000
+b1011 !
+b1011 $
+b1011 "
+b1011 #
+#60000
+b1000 !
+b1000 $
+b1000 "
+b1000 #
+#100000

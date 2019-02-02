@@ -1,0 +1,143 @@
+$date
+	Sat Nov 17 13:42:12 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_IF_ID $end
+$var wire 26 ! raJump [25:0] $end
+$var wire 5 " Rt [4:0] $end
+$var wire 5 # Rs [4:0] $end
+$var wire 5 $ Rd [4:0] $end
+$var wire 32 % PCout [31:0] $end
+$var wire 4 & PC4 [3:0] $end
+$var wire 16 ' Immi [15:0] $end
+$var wire 6 ( ControlIn [5:0] $end
+$var reg 1 ) IF_IDwrite $end
+$var reg 1 * IF_flush $end
+$var reg 32 + PCin [31:0] $end
+$var reg 1 , clock $end
+$var reg 32 - instruction [31:0] $end
+$scope module test_ifid $end
+$var wire 1 ) IF_IDwrite $end
+$var wire 1 * IF_flush $end
+$var wire 32 . PCin [31:0] $end
+$var wire 1 , clock $end
+$var wire 32 / instruction [31:0] $end
+$var wire 26 0 raJump [25:0] $end
+$var wire 4 1 PC4 [3:0] $end
+$var wire 16 2 Immi [15:0] $end
+$var wire 5 3 IF_ID_Rt [4:0] $end
+$var wire 5 4 IF_ID_Rs [4:0] $end
+$var wire 5 5 IF_ID_Rd [4:0] $end
+$var wire 6 6 ControlIn [5:0] $end
+$var reg 32 7 IF_ID_Reg [31:0] $end
+$var reg 32 8 PC_Reg [31:0] $end
+$var reg 32 9 PCout [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+b10010100010000000000000000 0
+b10001110010100010000000000000000 /
+b100 .
+b10001110010100010000000000000000 -
+1,
+b100 +
+0*
+1)
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+b10010100010000000000000000 !
+$end
+#15000
+0,
+#30000
+b0 (
+b0 6
+b10001 #
+b10001 4
+b10010 "
+b10010 3
+b10000 $
+b10000 5
+b1000000000100000 '
+b1000000000100000 2
+b0 &
+b0 1
+b10001100101000000000100000 7
+b1000 %
+b1000 9
+b10001100101000000000100000 !
+b10001100101000000000100000 0
+1,
+b10001100101000000000100000 -
+b10001100101000000000100000 /
+b1000 +
+b1000 .
+#45000
+0,
+#60000
+b1000 (
+b1000 6
+b0 #
+b0 4
+b1001 "
+b1001 3
+b0 $
+b0 5
+b10100 '
+b10100 2
+b100000000010010000000000010100 7
+b1100 %
+b1100 9
+b10010000000000010100 !
+b10010000000000010100 0
+1,
+b100000000010010000000000010100 -
+b100000000010010000000000010100 /
+b1100 +
+b1100 .
+#75000
+0,
+#90000
+b1001 (
+b1001 6
+b11000 #
+b11000 4
+b100111000010010000000000010100 7
+b10000 %
+b10000 9
+b11000010010000000000010100 !
+b11000010010000000000010100 0
+1,
+b100111000010010000000000010100 -
+b100111000010010000000000010100 /
+b10000 +
+b10000 .
+#105000
+0,
+#120000
+1,
+#135000
+0,
+#150000
+1,

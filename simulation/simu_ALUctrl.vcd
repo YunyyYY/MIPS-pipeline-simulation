@@ -1,0 +1,56 @@
+$date
+	Sat Nov 10 16:27:01 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_ALUctrl $end
+$var wire 4 ! ALUctrl [3:0] $end
+$var reg 2 " ALUop [1:0] $end
+$var reg 6 # funct [5:0] $end
+$scope module ctrl $end
+$var wire 2 $ ALUop [1:0] $end
+$var wire 6 % funct [5:0] $end
+$var wire 4 & ALUctrl [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111 &
+b101010 %
+b10 $
+b101010 #
+b10 "
+b111 !
+$end
+#20000
+b10 !
+b10 &
+b100000 #
+b100000 %
+#40000
+b10 !
+b10 &
+b11 "
+b11 $
+b100010 #
+b100010 %
+#60000
+b0 !
+b0 &
+b1 "
+b1 $
+b100100 #
+b100100 %
+#80000
+b10 !
+b10 &
+b0 "
+b0 $
+b100101 #
+b100101 %
+#120000

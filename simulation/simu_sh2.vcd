@@ -1,0 +1,36 @@
+$date
+	Sat Nov 10 21:36:03 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_sh2 $end
+$var wire 32 ! s [31:0] $end
+$var reg 32 " a [31:0] $end
+$scope module test_sh2 $end
+$var wire 32 # a [31:0] $end
+$var wire 32 $ s [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111111111111111111111111111100 $
+b11111111111111111111111111111111 #
+b11111111111111111111111111111111 "
+b11111111111111111111111111111100 !
+$end
+#30000
+b100 !
+b100 $
+b1 "
+b1 #
+#60000
+b111111111111111100 !
+b111111111111111100 $
+b1111111111111111 "
+b1111111111111111 #
+#100000

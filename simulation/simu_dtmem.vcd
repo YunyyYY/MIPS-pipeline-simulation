@@ -1,0 +1,86 @@
+$date
+	Sat Nov 10 16:58:34 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simu_dtmem $end
+$var wire 32 ! ReadData [31:0] $end
+$var reg 32 " Address [31:0] $end
+$var reg 1 # MemRead $end
+$var reg 1 $ MemWrite $end
+$var reg 32 % WriteData [31:0] $end
+$var reg 1 & clock $end
+$scope module mem $end
+$var wire 32 ' Address [31:0] $end
+$var wire 1 # MemRead $end
+$var wire 1 $ MemWrite $end
+$var wire 32 ( ReadData [31:0] $end
+$var wire 32 ) WriteData [31:0] $end
+$var wire 1 & clock $end
+$var reg 5 * addr [4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11111 *
+b101 )
+bz (
+b10 '
+1&
+b101 %
+1$
+0#
+b10 "
+bz !
+$end
+#15000
+0&
+#30000
+1&
+b111 "
+b111 '
+1#
+0$
+#45000
+b111 !
+b111 (
+b111 *
+0&
+#60000
+1&
+b1001 %
+b1001 )
+b1000 "
+b1000 '
+1$
+#75000
+b1001 !
+b1001 (
+b1000 *
+0&
+#90000
+1&
+0#
+0$
+#105000
+bz !
+bz (
+b11111 *
+0&
+#120000
+1&
+b11 "
+b11 '
+1#
+#135000
+b11 !
+b11 (
+b11 *
+0&
+#150000
+1&
