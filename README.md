@@ -1,2 +1,3 @@
 # MIPS-pipeline-simulation
-ve370 Introduction to computer organization course project
+ve370 Introduction to computer organization project 2
+.vpp files are generated for simulation by corresponding .v files
